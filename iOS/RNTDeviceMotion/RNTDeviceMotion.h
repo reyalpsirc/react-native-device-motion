@@ -2,12 +2,13 @@
 //  RNTDeviceMotion.h
 //  RNTDeviceMotion
 //
-//  Created by Cristiano Santos on 11/09/17.
-//  Copyright © 2017 Facebook. All rights reserved.
+//  Created by Param Aggarwal on 27/08/15.
+//  Copyright © 2015 Facebook. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import  <React/RCTBridgeModule.h>
 
-@interface RNTDeviceMotion : NSObject
+@interface RNTDeviceMotion : NSObject <RCTBridgeModule>
 
 @end

@@ -1,16 +1,17 @@
 'use strict'
 
-var React = require('react-native');
+import { DeviceEventEmitter, NativeModules } from 'react-native';
 var {
-  NativeModules,
-  DeviceEventEmitter,
-} = React;
-
-var RNTDeviceMotion = NativeModules.RNTDeviceMotion;
+  RNTDeviceMotion
+} = NativeModules;
 
 function startDeviceMotionUpdates(updateInterval, callback) {
   RNTDeviceMotion.startDeviceMotionUpdatesWithUpdateInterval(updateInterval || 1000/10);
   DeviceEventEmitter.addListener('onDeviceMotionUpdate', callback);
+};
+
+function isDeviceMotionAvailable(callback) {
+  RNTDeviceMotion.isDeviceMotionAvailable(callback)
 };
 
 function stopDeviceMotionUpdates () {
@@ -20,6 +21,7 @@ function stopDeviceMotionUpdates () {
 
 var DeviceMotion = {
   startDeviceMotionUpdates,
+  isDeviceMotionAvailable,
   stopDeviceMotionUpdates
 };
 

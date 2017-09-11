@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RNTDeviceMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTDeviceMotionTests.m */; };
-		233208D31F66C8930045283A /* RNTDeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 233208D21F66C8930045283A /* RNTDeviceMotion.m */; };
-		233208D41F66C8930045283A /* RNTDeviceMotion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 233208D11F66C8930045283A /* RNTDeviceMotion.h */; };
+		230664241F66EE1F009142FE /* RNTDeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC60951B8F4F1D001C594B /* RNTDeviceMotion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		233208CD1F66C8920045283A /* CopyFiles */ = {
+		23C34C9E1F66E58900CD7A1F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				233208D41F66C8930045283A /* RNTDeviceMotion.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -27,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* RNTDeviceMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNTDeviceMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNTDeviceMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTDeviceMotionTests.m; sourceTree = "<group>"; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,23 +32,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		233208CF1F66C8920045283A /* libRNTDeviceMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTDeviceMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		233208D11F66C8930045283A /* RNTDeviceMotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTDeviceMotion.h; sourceTree = "<group>"; };
-		233208D21F66C8930045283A /* RNTDeviceMotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTDeviceMotion.m; sourceTree = "<group>"; };
-		8B5619691B8F522D0043D586 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		8BAC60941B8F4F1D001C594B /* RNTDeviceMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNTDeviceMotion.h; path = ../../RNTDeviceMotion.h; sourceTree = "<group>"; };
-		8BAC60951B8F4F1D001C594B /* RNTDeviceMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNTDeviceMotion.m; path = ../../RNTDeviceMotion.m; sourceTree = "<group>"; };
+		23C34CA01F66E58900CD7A1F /* libRNTDeviceMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTDeviceMotion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAC60941B8F4F1D001C594B /* RNTDeviceMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTDeviceMotion.h; sourceTree = "<group>"; };
+		8BAC60951B8F4F1D001C594B /* RNTDeviceMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTDeviceMotion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		233208CC1F66C8920045283A /* Frameworks */ = {
+		23C34C9D1F66E58900CD7A1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,22 +81,11 @@
 			path = RNTDeviceMotion;
 			sourceTree = "<group>";
 		};
-		233208D01F66C8920045283A /* RNTDeviceMotion */ = {
-			isa = PBXGroup;
-			children = (
-				233208D11F66C8930045283A /* RNTDeviceMotion.h */,
-				233208D21F66C8930045283A /* RNTDeviceMotion.m */,
-			);
-			path = RNTDeviceMotion;
-			sourceTree = "<group>";
-		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				8B5619691B8F522D0043D586 /* CoreMotion.framework */,
 				13B07FAE1A68108700A75B9A /* RNTDeviceMotion */,
 				00E356EF1AD99517003FC87E /* RNTDeviceMotionTests */,
-				233208D01F66C8920045283A /* RNTDeviceMotion */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 			);
 			indentWidth = 2;
@@ -120,8 +95,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00E356EE1AD99517003FC87E /* RNTDeviceMotionTests.xctest */,
-				233208CF1F66C8920045283A /* libRNTDeviceMotion.a */,
+				23C34CA01F66E58900CD7A1F /* libRNTDeviceMotion.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,30 +103,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RNTDeviceMotionTests */ = {
+		23C34C9F1F66E58900CD7A1F /* RNTDeviceMotion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTDeviceMotionTests" */;
+			buildConfigurationList = 23C34CA61F66E58900CD7A1F /* Build configuration list for PBXNativeTarget "RNTDeviceMotion" */;
 			buildPhases = (
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RNTDeviceMotionTests;
-			productName = RNTDeviceMotionTests;
-			productReference = 00E356EE1AD99517003FC87E /* RNTDeviceMotionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		233208CE1F66C8920045283A /* RNTDeviceMotion */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 233208D51F66C8930045283A /* Build configuration list for PBXNativeTarget "RNTDeviceMotion" */;
-			buildPhases = (
-				233208CB1F66C8920045283A /* Sources */,
-				233208CC1F66C8920045283A /* Frameworks */,
-				233208CD1F66C8920045283A /* CopyFiles */,
+				23C34C9C1F66E58900CD7A1F /* Sources */,
+				23C34C9D1F66E58900CD7A1F /* Frameworks */,
+				23C34C9E1F66E58900CD7A1F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -160,7 +117,7 @@
 			);
 			name = RNTDeviceMotion;
 			productName = RNTDeviceMotion;
-			productReference = 233208CF1F66C8920045283A /* libRNTDeviceMotion.a */;
+			productReference = 23C34CA01F66E58900CD7A1F /* libRNTDeviceMotion.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -172,12 +129,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					233208CE1F66C8920045283A = {
+					23C34C9F1F66E58900CD7A1F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4ZHXZ8K673;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -195,36 +149,17 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00E356ED1AD99517003FC87E /* RNTDeviceMotionTests */,
-				233208CE1F66C8920045283A /* RNTDeviceMotion */,
+				23C34C9F1F66E58900CD7A1F /* RNTDeviceMotion */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
+		23C34C9C1F66E58900CD7A1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RNTDeviceMotionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		233208CB1F66C8920045283A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				233208D31F66C8930045283A /* RNTDeviceMotion.m in Sources */,
+				230664241F66EE1F009142FE /* RNTDeviceMotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,83 +177,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
+		23C34CA71F66E58900CD7A1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNTDeviceMotionTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTDeviceMotion.app/RNTDeviceMotion";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNTDeviceMotionTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTDeviceMotion.app/RNTDeviceMotion";
-			};
-			name = Release;
-		};
-		233208D61F66C8930045283A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CLANG_WARN_INFINITE_RECURSION = NO;
-				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4ZHXZ8K673;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		233208D71F66C8930045283A /* Release */ = {
+		23C34CA81F66E58900CD7A1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES_NONAGGRESSIVE;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CLANG_WARN_INFINITE_RECURSION = NO;
-				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4ZHXZ8K673;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -414,22 +306,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTDeviceMotionTests" */ = {
+		23C34CA61F66E58900CD7A1F /* Build configuration list for PBXNativeTarget "RNTDeviceMotion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
+				23C34CA71F66E58900CD7A1F /* Debug */,
+				23C34CA81F66E58900CD7A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		233208D51F66C8930045283A /* Build configuration list for PBXNativeTarget "RNTDeviceMotion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				233208D61F66C8930045283A /* Debug */,
-				233208D71F66C8930045283A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNTDeviceMotion" */ = {
 			isa = XCConfigurationList;
