@@ -6,8 +6,8 @@
 //  Copyright © 2015 Facebook. All rights reserved.
 //
 
-#import "RNTDeviceMotion.h"
-#import "RCTEventDispatcher.h"
+#import <React/RNTDeviceMotion.h>
+#import <React/RCTEventDispatcher.h>
 @import CoreMotion;
 
 @implementation RNTDeviceMotion
