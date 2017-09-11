@@ -67,6 +67,17 @@ RCT_EXPORT_METHOD(startDeviceMotionUpdatesWithUpdateInterval:(NSTimeInterval)upd
                                                                                                                @"y" : @(motion.gravity.y),
                                                                                                                @"z" : @(motion.gravity.z),
                                                                                                                },
+                                                                                                           @"rotationMatrix": @{
+                                                                                                               @"m11" : @(motion.attitude.rotationMatrix.m11),
+                                                                                                               @"m12" : @(motion.attitude.rotationMatrix.m12),
+                                                                                                               @"m13" : @(motion.attitude.rotationMatrix.m13),
+                                                                                                               @"m21" : @(motion.attitude.rotationMatrix.m21),
+                                                                                                               @"m22" : @(motion.attitude.rotationMatrix.m22),
+                                                                                                               @"m23" : @(motion.attitude.rotationMatrix.m23),
+                                                                                                               @"m31" : @(motion.attitude.rotationMatrix.m31),
+                                                                                                               @"m32" : @(motion.attitude.rotationMatrix.m32),
+                                                                                                               @"m33" : @(motion.attitude.rotationMatrix.m33),
+                                                                                                               },
                                                                                                            @"userAcceleration": @{
                                                                                                                @"x" : @(motion.userAcceleration.x),
                                                                                                                @"y" : @(motion.userAcceleration.y),
