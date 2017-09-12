@@ -37,7 +37,7 @@ RCT_EXPORT_METHOD(isDeviceMotionAvailable:(RCTResponseSenderBlock) callback) {
 RCT_EXPORT_METHOD(startDeviceMotionUpdatesWithUpdateInterval:(NSTimeInterval)updateInterval)
 {
   _motionManager.deviceMotionUpdateInterval = updateInterval;
-  [_motionManager startDeviceMotionUpdatesUsingReferenceFrame:CMAttitudeReferenceFrameXArbitraryCorrectedZVertical
+  [_motionManager startDeviceMotionUpdatesUsingReferenceFrame:CMAttitudeReferenceFrameXTrueNorthZVertical
                                                       toQueue:[NSOperationQueue mainQueue]
                                                   withHandler:^(CMDeviceMotion *motion, NSError *error) {
                                                     
