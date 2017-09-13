@@ -52,6 +52,7 @@ RCT_EXPORT_METHOD(startDeviceMotionUpdatesWithUpdateInterval:(NSTimeInterval)upd
                                                     
                                                     [self.bridge.eventDispatcher sendDeviceEventWithName:@"onDeviceMotionUpdate"
                                                                                                     body:@{
+                                                                                                           @"timestamp" : @(motion.timestamp),
                                                                                                            @"attitude": @{
                                                                                                                @"roll" : @(motion.attitude.roll),
                                                                                                                @"pitch" : @(motion.attitude.pitch),
